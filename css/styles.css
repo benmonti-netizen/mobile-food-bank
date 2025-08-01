@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+
+nav.navbar, .social-icons {
+    background-color: #4658c8 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav li.nav-ite, .social-icons li.nav-item {
+    margin-right: 20px;
+}
+
+.bg-light {
+    background-color: #4658c8 !important;
+    border: none !important;
+}
+
+footer p {
+    color: white;
+}
+
+a.nav-link h5 {
+    color: white;
+}
+
+a.nav-link h5:hover {
+    color: lightgray;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: lightgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+a[href^="tel"] {
+    color: white;
+    text-decoration: none;
+}
+
+button.btn.btn-primary a.nav-link {
+    font-family: "Sanchez", serif;
+    font-style: normal;
+}
+
+.input-group input[type="text"].form-control::placeholder {
+    color: #5a6ad16c;
+    border-color: #5a6ad16c;
+}
+
+.form-control {
+    border-color: #5a6ad16c;
+}
+
+.input-group-text {
+    color: #4658c8;
+    background-color: #edeffeb6;
+    border-color: #5a6ad16c;
+}
+
+label.form-check-label {
+    color: #4658c8;
+}
+
+input#exampleCheckbox.form-check-input {
+    background-color: #4658c8;
+    border-color: #5a6ad16c;
+}
+
+input#exampleCheckbox.form-check-input:hover {
+    background-color: #5a6ad16c;
+    border-color: #5a6ad16c;
+}
+
+div.dropdown .btn-outline-secondary {
+    background-color: #edeffeb6;
+    color: #4658c8;
+    border-color: #5a6ad16c;
+}
+
+div.dropdown .btn-outline-secondary:hover {
+    background-color: #4658c8;
+    border-color: #4658c8;
+    color: #edeffeb6;
+}
+
+div.dropdown .btn-outline-secondary:hover {
+    background-color: #4658c8;
+    border-color: #4658c8;
+    color: #edeffeb6;
+}
+
+.btn-primary {
+    background-color: #017e0e;
+    border-color: #017e0e;
+}
+
+.btn-primary:hover {
+    background-color: #006e0b;
+    border-color: #006e0b;
+    color: lightgray;
+}
+
+.btn-primary:active {
+    background-color: #005d09 !important;
+    border-color: #005d09 !important;
+    color: rgb(196, 196, 196) !important;
+}
+
+.card h5, p {
+    color: #4658c8;
+}
+
+.card {
+    border: 1px solid #5a6ad16c;
+    background-color: #edeffeb6;
+    border-radius: 0;
+}
+
+.card h5 {
+    padding-top: 10px;
+}
+
+.card-img-top {
+    border-radius: 0 !important;
+}
+
+.copy-header {
+    color: #017e0e;
+    font-weight: bold;
+}
+
+.link {
+    color: #017e0e;
+    text-decoration: underline;
+}
+
+.link:hover {
+    font-weight: bold;
+}
+
+.card-body {
+    height: 125px;
+    overflow: auto;
+}
+
+body {
+    background-color: rgba(255, 237, 213, 0.5);
+}
+
+h1 {
+    color: #017e0e;
+    font-weight: bold;
+    font-family: "Sanchez", serif;
+    font-style: normal;
+}
+
+h2 {
+    color: #017e0e;
+    font-family: "Sanchez", serif;
+    font-style: normal;
+}
+
+h3 {
+    color: #4658c8;
+    font-weight: bold;
+    font-family: "Sanchez", serif;
+    font-style: normal;
+}
+
+h4 {
+    color: #4658c8;
+    font-family: "Sanchez", serif;
+    font-style: normal;
+}
+
+h5 {
+    color: #017e0e;
+    font-family: "Sanchez", serif;
+    font-style: normal;
+}
+
+h6 {
+    font-family: "Sanchez", serif;
+    font-style: normal;
+}
+
+p {
+    color: #4658c8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cc-info-top {
+    margin-bottom: 0;
+}
+
+.cc-info {
+    margin-bottom: 0;
+    padding-top: 1rem;
+}
+
+.col-custom-width {
+    width: fit-content;
+}
+
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#mission-h1 {
+    padding-top: 35px;
+    text-align: right;
+    padding-right: 100px;
+    color: #091147;
+}
+
+#mission-p {
+    text-align: right;
+    padding-left: 1000px;
+    padding-right: 100px;
+    color: #091147;
+    font-weight: bold;
+}
+
+#green-bar {
+    background-color: #017e0e;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    padding-top: 10px;
+}
+
+#need-help {
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+}
+
+#contact-today {
+    text-align: left;
+    color: white;
+}
+
+#number {
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+}
+
+#email {
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    #email {
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 1500px) {
+    #mission-p {
+        padding-left: 1000px;
+    }
+}
+
+@media (max-width: 1350px) {
+    #mission-p {
+        padding-left: 900px;
+    }
+}
+
+@media (max-width: 1150px) {
+    #mission-p {
+        padding-left: 600px;
+    }
+}
+
+@media (max-width: 950px) {
+    #mission-p {
+        padding-left: 400px;
+    }
+}
+
+@media (max-width: 750px) {
+    #mission-p {
+        padding-left: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    #mission-p {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav, .social-icons {
+        flex-grow: 1;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .abt-us-icon {
+        width: 30%;
+        max-width: 40px;
+    }
+    .col-2, .col-sm-2 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-10, .col-sm-10 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gb-icon {
+        width: 25px;
+        height: 25px;
+    }
+}
